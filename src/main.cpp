@@ -83,11 +83,11 @@ int main() {
 
   consoleFd = open("/dev/buzzer", O_WRONLY);
 
-	// Open the device file
-	if (consoleFd < 0) {
-		std::cerr << "Failed to open /dev/buzzer" << std::endl;
-		return 1;
-	}
+  // Open the device file
+  if (consoleFd < 0) {
+    std::cerr << "Failed to open /dev/buzzer" << std::endl;
+    return 1;
+  }
 
   int frequency = 2200;
 
@@ -149,7 +149,7 @@ int main() {
     }
   }
 
-	// Close the device file
-	close(consoleFd);
-	return 0;
+  // Close the device file
+  close(consoleFd);
+  return 0;
 }
