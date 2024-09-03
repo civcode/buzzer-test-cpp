@@ -1,0 +1,9 @@
+{
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "trailing",
+    "editor.renderControlCharacters": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "vim.useSystemClipboard": true
+
+}
